@@ -49,7 +49,8 @@ $ git commit -m "My first commit"
   
 c. Push the changes  
 
-$ git push  
+$ git pull
+
   
 ## Step 7: Create a 'handlers' folder
 In the RecipeKeeper folder, create a new folder 'handlers' and create a new file within this folder called 'homepage.go'  
@@ -111,3 +112,5 @@ Remember to save and then run (go run main.go)
 If a firewall pop up comes up allow main to execute (click allow)
 In a browser go to localhost:8000
 It should print your handler string (in this case "Hello")
+
+ctrl c in terminal exits out of server so you can use terminal again
