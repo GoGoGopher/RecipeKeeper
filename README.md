@@ -26,4 +26,16 @@ Project: $ go mod init github.com/GoGoGopher/RecipeKeeper
 It's best practice to tidy the module. The command 'go mod tidy' adds missing requirements and drops unused requirements. 
 Project: $ go mod tidy
 
-## Step 6: 
+## Step 6: Push files to git respository
+3 steps:
+
+a. Indicate which files have been edited
+Note: The full stop ( .) means all files/everything
+Terminal > New terminal > $ git add . 
+
+b. Commit the changes
+Note: -m indicates message
+$ git commit -m "My first commit"
+
+c. Push the changes
+$ git push
